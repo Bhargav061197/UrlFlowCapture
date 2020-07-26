@@ -2,14 +2,14 @@
   "manifest_version": 2,
 
   "name": "UrlStack",
-  "description": "Captures URL flow",
+  "description": "Captures URL flow; You get to change donwload file name and format(html preffered)",
   "version": "1.0",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "icons": {
-    "48": "icon.png"
+    "128": "icon.png"
   },
 
   "permissions": ["tabs", "<all_urls>", "storage"],
